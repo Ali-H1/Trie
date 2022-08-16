@@ -160,25 +160,25 @@ in **O(LN)** time and searching for S in **O(m)** time. If M is the
 total length of all string stored in a trie the storage used is
 **O(MN)**
 
-  Method   Trie    Patricia Trie
-  -------- ------- ---------------
-  Insert   O(Nm)   O(Nm)
-  Delete   O(mN)   O(mN)
-  Search   O(MN)   O(MN)
-  Space    O(m)    O(m)
+  |Method   |Trie    |Patricia Trie|
+  |-------- |------- |---------------|
+  |Insert   |O(Nm)   |O(Nm)|
+  |Delete   |O(mN)   |O(mN)|
+  |Search   |O(MN)   |O(MN)|
+  |Space    |O(m)    |O(m)|
 
 ### Other Data structures
 
-  Data structure               Time Complexity   Space Complexity
-  ---------------------------- ----------------- ------------------
-  Array                        O(P)              O(TΣ)
-  BST                          O(P\*logΣ)        O(T)
-  Hash Table                   O(P)              O(T)
-  van Emde Boas / Y-fast       O(P\*loglogΣ)     O(T)
-  van Emde Boas + Hash Table   O(P+loglogΣ)      O(T)
-  Weight-Balanced              O(P\*logK)        O(T)
+  |Data structure               |Time Complexity   |Space Complexity|
+  |---------------------------- |----------------- |------------------|
+  |Array                        |O(P)              |O(TΣ)|
+  |BST                          |O(P\*logΣ)        |O(T)|
+  |Hash Table                   |O(P)              |O(T)|
+  |van Emde Boas / Y-fast       |O(P\*loglogΣ)     |O(T)|
+  |van Emde Boas + Hash Table   |O(P+loglogΣ)      |O(T)|
+  |Weight-Balanced              |O(P\*logK)        |O(T)|
 
-##### K = number of leaves {#k--number-of-leaves}
+#### K = number of leaves
 
 <img src="W-BST.png" alt="Trie" width="690" style="background-color:#333333; padding:20px; margin-top:20px;"/>
 
@@ -261,7 +261,7 @@ table node. Two approaches are proposed by the paper for the burst:
 
 # DAFSA(DAWG)
 
-(DAFSA) : deterministic acyclic finite state automaton`<br>`{=html}
+(DAFSA) : deterministic acyclic finite state automaton<br>
 (DAWG) : directed acyclic word graph
 
 -   Prefix trees handle common prefixes efficiently, but other shared
