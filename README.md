@@ -479,3 +479,5 @@ prefix queries, so you can do spell checking and auto-completion.
 Because the terminal nodes of a DAFSA can be reached by multiple paths,
 a DAFSA cannot directly store auxiliary information relating to each
 path, e.g. a word\'s frequency in the English language.
+
+### This lecture was made and gathered by **Ali Haddadi**
